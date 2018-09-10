@@ -1,0 +1,58 @@
+{
+  "name": "brain-games",
+  "version": "0.0.1",
+  "description": "logic games",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+  "test": "jest",
+  "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+  "prepublishOnly": "npm run build"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Piratika/project-lvl1-s344.git"
+  },
+  "author": "Natalia A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piratika/project-lvl1-s344/issues"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "homepage": "https://github.com/Piratika/project-lvl1-s344#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.4.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "debug": "^3.1.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.2.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "flow-bin": "^0.80.0",
+    "flow-typed": "^2.5.1",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
+    "up": "^1.0.2",
+    "vagrant": "0.0.1"
+  }
+}
