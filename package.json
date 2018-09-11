@@ -1,10 +1,11 @@
 {
   "name": "brain-games.natalia",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "logic games",
   "main": "dist/index.js",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "engines": {
     "node": ">=8"
@@ -14,8 +15,7 @@
   ],
   "scripts": {
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-    "prepublishOnly": "npm run build",
-    "lint": "eslint --ignore-path .gitignore ."
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -39,6 +39,7 @@
     "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
+    "hexlet-pairs": "^1.0.8",
     "readline-sync": "^1.4.9"
   }
 }
