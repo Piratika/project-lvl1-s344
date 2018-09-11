@@ -19,3 +19,4 @@ const taskAndAnswer = () => {
 };
 
 export default () => game(taskAndAnswer, rules);
+game(taskAndAnswer, rules);

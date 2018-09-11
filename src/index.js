@@ -22,5 +22,5 @@ export default (taskAndAnswer, rules) => {
       return;
     }
   }
-  console.log(`Congratulations, ${userName}`);
+  console.log(`Congratulations, ${userName}!`);
 };
