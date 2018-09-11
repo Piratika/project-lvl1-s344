@@ -12,9 +12,6 @@ build:
 	rm -rf dist
 	npm run build
 
-test:
-	npm test
-
 check-types:
 	npx flow
 
