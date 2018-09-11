@@ -18,5 +18,4 @@ const taskAndAnswer = () => {
   return cons(randomNumber, rightAnswer);
 };
 
-export default () => game(taskAndAnswer, rules);
 game(taskAndAnswer, rules);
