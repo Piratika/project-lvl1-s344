@@ -8,10 +8,10 @@ const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min
 
 const isEven = number => number % 2 === 0;
 
-const taskAndAnswer = () => {
+const question = () => {
   const randomNumber = generateRandomNumber(0, 500);
   const rightAnswer = isEven(randomNumber) ? 'yes' : 'no';
   return cons(randomNumber, rightAnswer);
 };
 
-game(taskAndAnswer, rules);
+game(question, rules);
