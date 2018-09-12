@@ -8,3 +8,5 @@
 [![asciicast](https://asciinema.org/a/f2JkpGNwreM1HPD2mrCtpwi4L.png)](https://asciinema.org/a/f2JkpGNwreM1HPD2mrCtpwi4L)
 ### Brain-gcd
 [![asciicast](https://asciinema.org/a/crZMyG96vPYOp7JueNjxQBlyv.png)](https://asciinema.org/a/crZMyG96vPYOp7JueNjxQBlyv)
+### Brain-balance
+[![asciicast](https://asciinema.org/a/sDX9T5MWT21GbWboKOVRlsA9i.png)](https://asciinema.org/a/sDX9T5MWT21GbWboKOVRlsA9i)
