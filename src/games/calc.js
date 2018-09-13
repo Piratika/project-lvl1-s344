@@ -4,7 +4,7 @@ import game from '..';
 
 const rules = 'What is the result of the expression?';
 
-const question = () => {
+const questionAndRightAnswer = () => {
   const randomNumber1 = random(0, 50);
   const randomNumber2 = random(0, 50);
   const operation = random(0, 2); // 0 +, 1 -, 2 *
@@ -21,4 +21,4 @@ const question = () => {
   }
 };
 
-export default () => game(question, rules);
+export default () => game(questionAndRightAnswer, rules);

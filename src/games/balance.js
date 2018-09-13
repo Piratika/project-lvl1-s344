@@ -20,9 +20,9 @@ const balance = (reference) => {
   return iter(sumOfNumbers(reference), numOfSymbNum(reference));
 };
 
-const question = () => {
+const questionAndRightAnswer = () => {
   const randomNumber = random(111, 9999);
   return cons(`${randomNumber}`, `${balance(randomNumber)}`);
 };
 
-export default () => game(question, rules);
+export default () => game(questionAndRightAnswer, rules);

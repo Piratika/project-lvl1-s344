@@ -11,10 +11,10 @@ const findfcd = (number1, number2) => {
   } return findfcd(number1, number2 % number1);
 };
 
-const question = () => {
+const questionAndRightAnswer = () => {
   const randomNumber1 = random(1, 100);
   const randomNumber2 = random(1, 100);
   return cons(`${randomNumber1} ${randomNumber2}`, `${findfcd(randomNumber1, randomNumber2)}`);
 };
 
-export default () => game(question, rules);
+export default () => game(questionAndRightAnswer, rules);
