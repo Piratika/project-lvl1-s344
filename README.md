@@ -10,3 +10,5 @@
 [![asciicast](https://asciinema.org/a/crZMyG96vPYOp7JueNjxQBlyv.png)](https://asciinema.org/a/crZMyG96vPYOp7JueNjxQBlyv)
 ### Brain-balance
 [![asciicast](https://asciinema.org/a/sDX9T5MWT21GbWboKOVRlsA9i.png)](https://asciinema.org/a/sDX9T5MWT21GbWboKOVRlsA9i)
+### Brain-progression
+[![asciicast](https://asciinema.org/a/9f1bpsvxYNsMPGtug8FosqX6Y.png)](https://asciinema.org/a/9f1bpsvxYNsMPGtug8FosqX6Y)
