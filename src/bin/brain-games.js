@@ -1,4 +1,6 @@
 #!/usr/bin/env node
-// import game from './brain-even';
+import greeting from '../greeting';
+import choose from '../choose';
 
-console.log('\nWelcome to the Brain Games!');
+greeting();
+choose();

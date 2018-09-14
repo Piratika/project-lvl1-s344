@@ -1,14 +1,12 @@
-import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
+import ask from './ask';
+import choose from './choose';
+import { getName } from './greeting';
 
-const ask = question => readlineSync.question(question);
 const numberAsks = 3;
 
 export default (taskAndAnswer, rules) => {
-  console.log('\nWelcome to the Brain Games!');
-  console.log(`${rules}`);
-  const userName = ask('\nMay I have your name? ');
-  console.log(`Hello, ${userName}!\n`);
+  console.log(`\n${rules}\n`);
   for (let i = 0; i < numberAsks; i += 1) {
     const questionAnswer = taskAndAnswer();
     console.log('Question:', car(questionAnswer));
@@ -18,9 +16,11 @@ export default (taskAndAnswer, rules) => {
       console.log('Correct!');
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\n`);
-      console.log(`Let's try again, ${userName}!\n`);
+      console.log(`Let's try again, ${getName()}!\n`);
+      choose();
       return;
     }
   }
-  console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${getName()}!`);
+  choose();
 };

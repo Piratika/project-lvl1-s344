@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import game from '..';
 import { cons } from 'hexlet-pairs';
 import random from '../random';
