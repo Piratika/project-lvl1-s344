@@ -12,12 +12,12 @@ const prime = (number) => {
       return false;
     } return iter(num, diff - 1);
   };
-  return iter(number, maxDiff) ? 'yes' : 'no';
+  return iter(number, maxDiff);
 };
 
 const questionAndRightAnswer = () => {
   const randomNumber = random(2, 233);
-  return cons(`${randomNumber}`, `${prime(randomNumber)}`);
+  return cons(`${randomNumber}`, `${prime(randomNumber) ? 'yes' : 'no'}`);
 };
 
 export default () => game(questionAndRightAnswer, rules);
